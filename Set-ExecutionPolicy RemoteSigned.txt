@@ -1,1 +1,2 @@
 Set-ExecutionPolicy RemoteSigned
+firebase_test\Scripts\activate
