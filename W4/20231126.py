@@ -1,7 +1,7 @@
 # python
 import pyrebase
 
-"""
+# """
 config = {
   "apiKey": "AIzaSyC64F1MZ-6OlPjltmUD4p4zgVbSJ5PBBGY",
   "authDomain": "fir-tesk-e1ace.firebaseapp.com",
@@ -37,9 +37,9 @@ def login():
     except:
       print("Invalid email or password!")
 
-# signup()
-login()
-"""
+signup()
+# login()
+# """
 """
 class car:
     def __init__(self,color):
@@ -56,7 +56,6 @@ def traverse(head):
     print("Finish traverse")
 
 traverse(head)
-"""
 
 class student:
     def __init__(self,name,score):
@@ -74,3 +73,4 @@ def traverse(name):
     print("Finish traverse")
 
 traverse(name)
+"""
