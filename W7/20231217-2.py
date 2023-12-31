@@ -53,7 +53,7 @@ root.geometry("880x650")
 
 # Row0
 # Logo_Tree
-TitleImage = Image.open("C:/Users/yoshi_pgnry07/Desktop/Python_2022Autumn/class10/image/logo_tree.png")
+TitleImage = Image.open("W8/image/logo_tree.png")
 TitleImage = TitleImage.resize((32,32))
 TitleImage = ImageTk.PhotoImage(TitleImage)
 TitleLabel = Label(root, image=TitleImage)
@@ -70,7 +70,7 @@ SignUpButton.grid(row=0,column=7,sticky=E+W)
 
 # row1
 # Banner
-BannerImage = Image.open("C:/Users/yoshi_pgnry07/Desktop/Python_2022Autumn/class10/image/banner.jpg")
+BannerImage = Image.open("W8/image/banner.jpg")
 BannerImage = BannerImage.resize((852,298))
 BannerImage = ImageTk.PhotoImage(BannerImage)
 BannerLabel = Label(root, image=BannerImage)
@@ -78,16 +78,16 @@ BannerLabel.grid(row=1,column=0,columnspan=8,padx=5,sticky=W+N+S+E)
 
 # row2
 # Sofa1+2+3+4
-Sofa1Image = Image.open("C:/Users/yoshi_pgnry07/Desktop/Python_2022Autumn/class10/image/sofa1.jpg")
+Sofa1Image = Image.open("W8/image/sofa1.jpg")
 Sofa1Image = Sofa1Image.resize((202,200))
 Sofa1Image = ImageTk.PhotoImage(Sofa1Image)
-Sofa2Image = Image.open("C:/Users/yoshi_pgnry07/Desktop/Python_2022Autumn/class10/image/sofa2.jpg")
+Sofa2Image = Image.open("W8/image/sofa2.jpg")
 Sofa2Image = Sofa2Image.resize((202,200))
 Sofa2Image = ImageTk.PhotoImage(Sofa2Image)
-Sofa3Image = Image.open("C:/Users/yoshi_pgnry07/Desktop/Python_2022Autumn/class10/image/sofa3.jpg")
+Sofa3Image = Image.open("W8/image/sofa3.jpg")
 Sofa3Image = Sofa3Image.resize((202,200))
 Sofa3Image = ImageTk.PhotoImage(Sofa3Image)
-Sofa4Image = Image.open("C:/Users/yoshi_pgnry07/Desktop/Python_2022Autumn/class10/image/sofa4.jpg")
+Sofa4Image = Image.open("W8/image/sofa4.jpg")
 Sofa4Image = Sofa4Image.resize((202,200))
 Sofa4Image = ImageTk.PhotoImage(Sofa4Image)
 
@@ -157,7 +157,7 @@ root.rowconfigure(5, weight=2)
 DetailListbtn = Button(root, text="詳細清單", bg="#ECEDE7",fg="#1E1E1E",font=("Inter",12))
 DetailListbtn.grid(row=5,column=0,sticky=W+S,padx=5,pady=1)
 # Shopping Cart
-ShoppingCartImage = Image.open("C:/Users/yoshi_pgnry07/Desktop/Python_2022Autumn/class10/image/Shopping Cart.png")
+ShoppingCartImage = Image.open("W8/image/Shopping Cart.png")
 ShoppingCartImage = ShoppingCartImage.resize((30,30))
 ShoppingCartImage = ImageTk.PhotoImage(ShoppingCartImage)
 ShoppingCartLabel = Label(root, image=ShoppingCartImage)
